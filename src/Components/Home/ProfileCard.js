@@ -1,5 +1,8 @@
+import { Icon, IconButton } from "@material-ui/core";
 import React from "react";
 import image from "../../assets/verified.png";
+import imag from "../../assets/star.png";
+import ima from "../../assets/login.png";
 function ProfileCard() {
   return (
     <div
@@ -22,7 +25,7 @@ function ProfileCard() {
         <div style={{ justifyContent: "center", marginTop: 10 }}>
           <span
             style={{
-              marginLeft: 25,
+              marginLeft: "10%",
               textAlign: "center",
               justifyContent: "center",
             }}
@@ -37,41 +40,81 @@ function ProfileCard() {
           width: "50%",
           display: "flex",
           flexDirection: "row",
-          justifyContent: "space-between",
+          //   justifyContent: "space-between",
+          alignContent: "space-between",
         }}
       >
-        <div className="" style={{ width: "40%", flexDirection: "row" }}>
-          <div>
-            <img
-              src={image}
-              style={{ alignContent: "center", width: "10%", float: "left" }}
-            />
-            <p> Verified</p>
-          </div>
-          <div className="" style={{ fontSize: 20, fontWeight: "500" }}>
-            Name
-          </div>
-          <div className="" style={{ fontSize: 15, fontWeight: "500" }}>
-            Country
+        <div
+          className=""
+          style={{
+            width: "100%",
+            flexDirection: "row",
+            justifyContent: "space-between",
+          }}
+        >
+          <img
+            src={image}
+            style={{ alignContent: "center", width: "10%", float: "left" }}
+          />
+          <p> Verified</p>
+          <div style={{ marginLeft: 25 }}>
+            <div className="" style={{ fontSize: 20, fontWeight: "500" }}>
+              Name
+            </div>
+            <div className="" style={{ fontSize: 15, fontWeight: "500" }}>
+              Country
+            </div>
           </div>
         </div>
         <div className="" style={{}}>
           <button
             style={{
               backgroundColor: "#E3655B",
-              float: "right",
+              //   float: "right",
+              marginTop: "5%",
               color: "white",
               padding: "10px",
               borderRadius: "10px",
               marginRight: "5%",
+              width: "200px",
             }}
           >
             Visit Profile
           </button>
+          <div>
+            <img
+              src={imag}
+              style={{
+                alignContent: "center",
+                width: "12%",
+                padding: "5px",
+                float: "left",
+              }}
+            />
+            <span style={{ marginTop: "5px" }}>5.00</span>
+          </div>
         </div>
       </div>
+      <div
+        className=""
+        style={{ display: "flex", flexDirection: "row", width: "30%" }}
+      >
+        <img
+          src={ima}
+          style={{ alignContent: "center", width: "50%", height: "100%" }}
+        />
 
-      <div className="">gcsgh</div>
+        <div className="" style={{ marginLeft: 30, width: "20%" }}>
+          <div className="" style={{ display: "flex", flexDirection: "row" }}>
+            <img src={imag} style={{ width: "35%", height: "30%" }} />
+            <span style={{ marginLeft: 20, fontWeight: "bold" }}>4.9</span>
+          </div>
+          <div className="" style={{ flexWrap: "wrap", overflow: "clip" }}>
+            ghjhjkghjhjkghjhjkghjhjk
+          </div>
+          <div className="">By: Sanjay Kumar</div>
+        </div>
+      </div>
     </div>
   );
 }
