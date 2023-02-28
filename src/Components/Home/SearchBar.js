@@ -6,39 +6,158 @@ function SearchBar() {
       style={{
         marginLeft: "8%",
         marginTop: "4%",
+        marginBottom: 30,
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
       }}
     >
-      <div className="" style={{ width: "50%" }}>
-        <div className="">What are You Looking For?</div>
+      <div className="" style={{ width: "40%" }}>
+        <div
+          className=""
+          style={{
+            fontFamily: "-moz-initial",
+            fontSize: "30px",
+            marginBottom: 30,
+          }}
+        >
+          What are You Looking For?
+        </div>
         <div className="clicks">
           <div
             className="flex flex-row"
             style={{ justifyContent: "space-between" }}
           >
-            <div className="">UI/UX Development </div>
-            <div className="">Software Development </div>
+            <div className="">
+              <button
+                style={{
+                  backgroundColor: "#E3655B",
+                  marginTop: "1%",
+                  color: "white",
+                  padding: "10px",
+                  borderRadius: "5px",
+                  marginRight: "5%",
+                  width: "200px",
+                }}
+              >
+                {" "}
+                UI/UX Development{" "}
+              </button>
+            </div>
+            <div className="">
+              <button
+                style={{
+                  backgroundColor: "#E3655B",
+                  marginTop: "1%",
+                  color: "white",
+                  padding: "10px",
+                  borderRadius: "5px",
+                  marginRight: "5%",
+                  width: "200px",
+                }}
+              >
+                Software Development{" "}
+              </button>
+            </div>
           </div>
           <div
             className="flex flex-row"
             style={{ justifyContent: "space-between" }}
           >
-            <div className="">Content Writer </div>
-            <div className="">Film Maker </div>
+            <div className="">
+              <button
+                style={{
+                  backgroundColor: "#E3655B",
+                  marginTop: "5%",
+                  color: "white",
+                  padding: "10px",
+                  borderRadius: "5px",
+                  marginRight: "5%",
+                  width: "200px",
+                }}
+              >
+                {" "}
+                Content Writer{" "}
+              </button>
+            </div>
+            <div className="">
+              <button
+                style={{
+                  backgroundColor: "#E3655B",
+                  marginTop: "5%",
+                  color: "white",
+                  padding: "10px",
+                  borderRadius: "5px",
+                  marginRight: "5%",
+                  width: "200px",
+                }}
+              >
+                {" "}
+                Film Maker{" "}
+              </button>
+            </div>
           </div>
           <div
             className="flex flex-row"
             style={{ justifyContent: "space-between" }}
           >
-            <div className="">Video Editor </div>
-            <div className="">Game Developer </div>
+            <div className="">
+              <button
+                style={{
+                  backgroundColor: "#E3655B",
+                  marginTop: "5%",
+                  color: "white",
+                  padding: "10px",
+                  borderRadius: "5px",
+                  marginRight: "5%",
+                  width: "200px",
+                }}
+              >
+                {" "}
+                Video Editor{" "}
+              </button>
+            </div>
+            <div className="">
+              <button
+                style={{
+                  backgroundColor: "#E3655B",
+                  marginTop: "5%",
+                  color: "white",
+                  padding: "10px",
+                  borderRadius: "5px",
+                  marginRight: "5%",
+                  width: "200px",
+                }}
+              >
+                {" "}
+                Game Developer{" "}
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <div className="" style={{ marginRight: "20%" }}>
-        <div className="">Search By Skills</div>
+      <div
+        className=""
+        style={{ marginRight: "20%", marginTop: "4%", alignSelf: "center" }}
+      >
+        <div
+          className=""
+          style={{ alignContent: "center", justifyContent: "center" }}
+        >
+          <button
+            style={{
+              backgroundColor: "#E3655B",
+              marginTop: "5%",
+              color: "white",
+              padding: "10px",
+              borderRadius: "5px",
+              marginRight: "5%",
+              width: "200px",
+            }}
+          >
+            Post your requirements
+          </button>
+        </div>
       </div>
     </div>
   );
