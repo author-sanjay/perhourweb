@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
+import Profilepage from "./Components/Profile/ProfilePage";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
               className="flex flex-row"
               style={{ backgroundColor: "#fff", minHeight: "100vh" }}
             >
-              <Home />
+              {/* <Home /> */}
+              <Profilepage/>
             </div>
           }
         />
