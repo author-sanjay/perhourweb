@@ -14,8 +14,8 @@ function App() {
               className="flex flex-row"
               style={{ backgroundColor: "#fff", minHeight: "100vh" }}
             >
-              {/* <Home /> */}
-              <Profilepage/>
+              <Home />
+              {/* <Profilepage/> */}
             </div>
           }
         />

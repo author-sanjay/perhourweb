@@ -29,7 +29,7 @@ function Profilepage(params) {
                float: "left",
              }}></img>
      </div>
-     <div style={{fontSize: 50,width:"50%", fontWeight: "500", color:"#E3655B"}}>Farzi Shayar</div>
+     <div style={{fontSize: 50,width:"50%", fontWeight: "500", color:"#E3655B"}}>Sanjay Farzi</div>
 </div>
 <div style={{fontSize: 35,width:"20%",marginTop:"1%",alignContent:"center" ,fontWeight: "300", color:"black",}}></div>
 <div style={{fontSize: 30,marginTop:"2%", fontWeight: "300", color:"grey",}}>$60/hr Available for freelance</div>
