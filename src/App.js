@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Profilepage from "./Components/Profile/ProfilePage";
 import Postproject from "./Components/PostProject/Postproject";
+import ProjectDetails from "./Components/ProjectDetails/ProjectDetails";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             >
               {/* <Home /> */}
               {/* <Profilepage/> */}
-              <Postproject />
+              <Home />
             </div>
           }
         />
